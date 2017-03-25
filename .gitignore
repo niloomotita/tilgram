@@ -1,3 +1,11 @@
+# build output
+dist
+.next
+
+# coverage
+.nyc_output
+coverage
+
 # Logs
 logs
 *.log

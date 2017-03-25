@@ -1,0 +1,27 @@
+{
+  "name": "tilgram",
+  "version": "0.0.1",
+  "description": "Knowledge management made real",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niloomotita/tilgram.git"
+  },
+  "author": "Omid Hezave <o@js.ax> (http://omid.fi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niloomotita/tilgram/issues"
+  },
+  "homepage": "https://github.com/niloomotita/tilgram#readme",
+  "dependencies": {
+    "next": "^1.2.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
