@@ -1,0 +1,63 @@
+<head>
+    <meta name="viewport" content="width=device-width,target-densitydpi=device-dpi, initial-scale=1.0, minimum-scale=0.51"> 
+    <style>
+    .content{
+    display: flex;
+    justify-content:center;   
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+    .header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom: 2px solid black;
+    padding: 20px;
+    margin: 0 10% 0 10%;
+    flex-basis: 100%;
+    }
+.header__btns{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    }
+    .profile-pic{
+    width:50px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 0 10px 0 0;
+}
+.new-til{
+    display: flex;
+    justify-content:center;   
+    flex-direction: column;
+    margin: 20px;
+    padding:10px;
+}
+.new-til__text{
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="profile-pic"></div>
+        <div class="header__btns">
+            <button class="header__home-btn">Home</button>
+            <button class="header__search-btn">Search</button>
+            <button class="header__notification-btn">Notifi</button>
+        </div>
+    </div>
+    <section class="content">
+        <div class="new-til">
+            <textarea name="textarea"rows="10" cols="50" class="new-til__text">Write something here</textarea>
+            <div class="new-till__btns">
+                <button class="new-til__save-btn"> save </button>
+                <button class="new-til__cancel-btn"> cancel </button>
+            </div>
+        </div>
+    </section>
+</body>
