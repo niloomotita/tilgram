@@ -1,5 +1,6 @@
 <head>
     <meta name="viewport" content="width=device-width,target-densitydpi=device-dpi, initial-scale=1.0, minimum-scale=0.51"> 
+    <script src="https://use.fontawesome.com/d0bb858f3d.js"></script>
     <style>
     .content{
     display: flex;
@@ -14,21 +15,21 @@
     align-items: flex-end;
     border-bottom: 2px solid black;
     padding: 20px;
-    margin: 0 10% 0 10%;
+    margin: 0 15% 0 15%;
     flex-basis: 100%;
     }
 .header__btns{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    margin-left: 30px;
     }
     .profile-pic{
     width:50px;
     height: 50px;
-    border: 1px solid transparent;
-    border-radius: 50%;
-    background-color: yellow;
-    margin: 0 10px 0 0;
+    margin: 0 5px 0 0;
+    padding: 0;
+
 }
 .new-til{
     display: flex;
@@ -36,27 +37,46 @@
     flex-direction: column;
     margin: 20px;
     padding:10px;
+   
+    
 }
 .new-til__text{
     padding: 10px;
+}
+.btn{
+    border:none;
+    background: none;
+    margin:0 10px 0 10px;
+}
+img{
+    border:1px solid transparent;
+    border-radius: 50%;
+}
+textarea{
+    border:none;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid dimgray;
 }
     </style>
 </head>
 <body>
     <div class="header">
-        <div class="profile-pic"></div>
+        <div class="profile-pic">
+            <img src="http://placekitten.com/g/60/60" alt="">
+        </div>
         <div class="header__btns">
-            <button class="header__home-btn">Home</button>
-            <button class="header__search-btn">Search</button>
-            <button class="header__notification-btn">Notifi</button>
+            <button class="header__home-btn btn"><i class="fa fa-home fa-2x" aria-hidden="true"></i></button>
+            <button class="header__search-btn btn"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
+            <button class="header__notification-btn btn"><i class="fa fa-bell fa-2x" aria-hidden="true"></i></button>
         </div>
     </div>
     <section class="content">
         <div class="new-til">
-            <textarea name="textarea"rows="10" cols="50" class="new-til__text">Write something here</textarea>
+            <textarea name="textarea"rows="10" cols="50" class="new-til__text">What did you learn today?</textarea>
             <div class="new-till__btns">
-                <button class="new-til__save-btn"> save </button>
-                <button class="new-til__cancel-btn"> cancel </button>
+                <button class="new-til__save-btn btn"> <i class="fa fa-floppy-o fa-lg" aria-hidden="true"></i> </button>
+                <button class="new-til__cancel-btn btn"> <i class="fa fa-ban fa-lg" aria-hidden="true"></i> </button>
             </div>
         </div>
     </section>

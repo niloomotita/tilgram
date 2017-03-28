@@ -8,6 +8,7 @@ First phase
   * share your favourite til 
   * edit a til 
   * remove a til 
+  * search in tils  
 
 second phase
   * add photo to til
