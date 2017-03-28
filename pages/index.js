@@ -1,11 +1,11 @@
-import {Helmet} from 'react-helmet'
+import Head from 'next/head'
 
 export default () => (
   <div>
-    <Helmet>
+    <Head>
       <meta name='viewport' content='width=device-width,target-densitydpi=device-dpi, initial-scale=1.0, minimum-scale=0.51' />
       <title>Tilgram</title>
-    </Helmet>
+    </Head>
     <style jsx>{`
 .content{
     display: flex;
@@ -46,7 +46,6 @@ export default () => (
         <button className='header__home-btn'>Home</button>
         <button className='header__search-btn'>Search</button>
         <button className='header__notification-btn'>Notification</button>
-
       </div>
 
     </div>

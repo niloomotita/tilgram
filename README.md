@@ -4,6 +4,7 @@
 First phase
   * make an account
   * write a til 
+  * setup knex and postgres
   * like othet tils 
   * share your favourite til 
   * edit a til 
