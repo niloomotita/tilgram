@@ -44,3 +44,11 @@ img{
     border:1px solid transparent;
     border-radius: 50%;
 }
+.til-card__pic{
+
+    margin-right: 20px;
+}
+.til-card__head{
+    display: flex;
+    align-items: flex-end;
+}
