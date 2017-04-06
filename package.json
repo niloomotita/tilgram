@@ -2,9 +2,9 @@
   "name": "tilgram",
   "version": "0.0.1",
   "description": "Knowledge management made real",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
-    "dev": "nodemon -w server/index.js server/index.js",
+    "dev": "nodemon -w server",
     "build": "next build",
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"

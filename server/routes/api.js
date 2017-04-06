@@ -23,4 +23,9 @@ router.get('/til/:id', (req, res) => {
   res.json(tils[req.params.id])
 })
 
+router.post('/til', (req, res) => {
+  res.json('hello')
+  res.json(req.body)
+})
+
 module.exports = router
